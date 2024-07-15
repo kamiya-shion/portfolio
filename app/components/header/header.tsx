@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.headerInner}>
-        <p>Shion</p>
+        <p className="font-bold">Shion</p>
       </div>
     </header>
   );

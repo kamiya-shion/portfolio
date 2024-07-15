@@ -12,7 +12,7 @@ export const Profile = () => {
         height={150}
         alt="profile picture"
       />
-      <h1 className="my-5">プロフィール</h1>
+      <h1 className="font-bold my-5">Profile</h1>
       <p>ほげほげほげ</p>
     </div>
   );
