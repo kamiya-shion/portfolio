@@ -1,7 +1,7 @@
 import { FixedFooter } from "./components/footer/footer";
 import { Header } from "./components/header/header";
 import { Profile } from "./components/profile/profile";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import localImage from "@/public/icon.png";
 import { Skills } from "./components/skills/skills";
 import { Works } from "./components/works/works";
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Image
+      <ExportedImage
         className="rounded-full mx-auto mt-8"
         src={localImage}
         width={150}
