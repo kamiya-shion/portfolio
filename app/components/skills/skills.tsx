@@ -1,4 +1,4 @@
-export const Skill = () => {
+export const Skills = () => {
   return (
     <section className="w-[400px]">
       <h1 className="font-bold my-5">Skills</h1>

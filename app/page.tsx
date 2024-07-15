@@ -3,7 +3,8 @@ import { Header } from "./components/header/header";
 import { Profile } from "./components/profile/profile";
 import Image from "next/image";
 import localImage from "@/public/icon.png";
-import { Skill } from "./components/skill/skill";
+import { Skills } from "./components/skills/skills";
+import { Works } from "./components/works/works";
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
       />
       <main className="max-w-[1200px] py-10 flex flex-col gap-6 items-center">
         <Profile />
-        <Skill />
+        <Skills />
+        <Works />
       </main>
       <FixedFooter />
     </>
