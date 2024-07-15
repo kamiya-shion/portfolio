@@ -3,6 +3,7 @@ import { Header } from "./components/header/header";
 import { Profile } from "./components/profile/profile";
 import Image from "next/image";
 import localImage from "@/public/icon.png";
+import { Skill } from "./components/skill/skill";
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
         height={150}
         alt="profile picture"
       />
-      <main>
+      <main className="max-w-[1200px] py-10 flex flex-col gap-6 items-center">
         <Profile />
+        <Skill />
       </main>
       <FixedFooter />
     </>
